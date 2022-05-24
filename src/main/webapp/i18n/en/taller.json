@@ -1,0 +1,30 @@
+{
+  "pruebaMonoliticaApp": {
+    "taller": {
+      "home": {
+        "title": "Tallers",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Create a new Taller",
+        "createOrEditLabel": "Create or edit a Taller",
+        "notFound": "No Tallers found"
+      },
+      "created": "A new Taller is created with identifier {{ param }}",
+      "updated": "A Taller is updated with identifier {{ param }}",
+      "deleted": "A Taller is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Are you sure you want to delete Taller {{ id }}?"
+      },
+      "detail": {
+        "title": "Taller"
+      },
+      "id": "ID",
+      "marca": "Marca",
+      "modelo": "Modelo",
+      "matricula": "Matricula",
+      "color": "Color",
+      "numSerie": "Num Serie",
+      "generacion": "Generacion",
+      "unidadservicio": "Unidadservicio"
+    }
+  }
+}

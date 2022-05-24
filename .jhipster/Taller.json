@@ -1,0 +1,48 @@
+{
+  "applications": "*",
+  "changelogDate": "20220509115202",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "taller",
+  "fields": [
+    {
+      "fieldName": "marca",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modelo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matricula",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "color",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "numSerie",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "generacion",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Taller",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "unidadServicio",
+      "otherEntityRelationshipName": "taller",
+      "ownerSide": true,
+      "relationshipName": "unidadservicio",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

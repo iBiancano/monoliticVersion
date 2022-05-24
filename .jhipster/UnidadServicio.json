@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20220406032148",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "unidad_servicio",
+  "fields": [
+    {
+      "fieldName": "fecha",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "UnidadServicio",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "unidad",
+      "otherEntityRelationshipName": "unidadServicio",
+      "ownerSide": true,
+      "relationshipName": "unidad",
+      "relationshipType": "one-to-one"
+    },
+    {
+      "otherEntityName": "servicio",
+      "otherEntityRelationshipName": "unidadServicio",
+      "relationshipName": "servicio",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "no"
+}

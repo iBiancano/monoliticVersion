@@ -1,0 +1,40 @@
+
+entity Unidad {
+	marca String
+    modelo String
+    matricula String
+    color String
+    numSerie String
+    generacion String
+}
+
+entity UnidadServicio {
+	fecha String
+}
+
+entity Taller {
+	marca String
+    modelo String
+    matricula String
+    color String
+    numSerie String
+    generacion String
+}
+
+entity Servicio {
+	nombre String
+    duracion String
+    desc String
+}
+
+relationship OneToOne {
+	UnidadServicio{unidad} to Unidad
+}
+
+relationship ManyToOne {
+	UnidadServicio{servicio} to Servicio
+}
+
+relationship OneToOne {
+	Taller{unidadservicio} to UnidadServicio
+}
